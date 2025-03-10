@@ -9,9 +9,45 @@
 </head>
 
 <body>
-    <div id="pic">
-        <img src="./pexels-abdullahalmallah-8022977.jpg" alt="" class="image">
-        <div class="centered">Welcome!</div>
+    <div class="container">
+        <div id="pic">
+            <img src="./pexels-abdullahalmallah-8022977.jpg" alt="" class="image">
+            <div class="centered">Welcome!</div>
+        </div>
+        <div id="form">
+            <div class="paragraphs">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize
+                    your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="" method="post">
+                <div class="Form-container">
+                    <p>Let's do this!</p>
+                    <div class="Form-inner-container">
+                        <div class="First-Column">
+                            <label for="first">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first" placeholder="type here..." required>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="someone@example.com">
+                            <label for="Password">PASSWORD</label>
+                            <input type="password" id="Password" name="Password" required minlength="8">
+                        </div>
+                        <div class="Second-Column">
+                            <label for="last">LAST NAME</label>
+                            <input type="text" name="last_name" id="last" placeholder="type here..." required>
+                            <label for="phNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phNumber" name="phNumber" placeholder="555-555-5555" required
+                                minlength="10" maxlength="10">
+                            <label for="confirmP">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmP" name="confirmP" required minlength="8">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </form>
+        </div>
     </div>
 </body>
 
