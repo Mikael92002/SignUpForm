@@ -165,6 +165,7 @@ outline-color:green;
     font-size: larger;
     margin-left: 30px;
     font-weight: 500;
+    max-width: 1000px;
   }
   .paragraphs>p+p{
     margin-bottom:50px;
